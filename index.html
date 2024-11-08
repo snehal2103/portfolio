@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Snehal Tripathi Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for GitHub icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+.hero {
+    background: linear-gradient(to bottom right, #ffbd39, #d81264);  
+    color: white;
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.hero .text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero .subheading {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#typing-animation {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #ffbd39;  /* Orangish yellow color */
+    border-color: #ffbd39;
+}
+
+.btn-primary:hover {
+    background-color: #ff9d00;  /* Darker shade of orangish yellow for hover */
+    border-color: #ff9d00;
+}
+
+.btn-outline-white {
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-outline-white:hover {
+    background-color: white;
+    color: #ffbd39;  /* Orangish yellow color for text */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        padding: 60px 0;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 14px;
+    }
+}
+
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Snehal Tripathi</a>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+                    <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home-section" class="hero">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center" style="height: 100vh;">
+                <div class="col-md-8 text-center ftco-animate">
+                    <div class="text">
+                        <span class="subheading">Hello!</span><br><br>
+                        
+
+                        <!-- Element to contain animated typing -->
+                        <span id="typing-animation"></span>
+
+                        <script>
+                            const typingAnimationElement = document.getElementById('typing-animation');
+                            const typingTexts = ['I AM SNEHAL TRIPATHI'];
+
+                            function playTypingAnimation(text) {
+                                for (let i = 0; i < text.length; i++) {
+                                    setTimeout(() => {
+                                        typingAnimationElement.textContent += text[i];
+                                    }, i * 200);
+                                }
+
+                                setTimeout(() => {
+                                    typingAnimationElement.textContent = '';
+                                    playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                                }, text.length * 200);
+                            }
+
+                            playTypingAnimation(typingTexts[0]);
+                        </script>
+
+                        <br><br>
+						
+                        <h6>A Driven Computer Science Graduate with hands-on experience in diverse technologies. Currently pursuing an MSc in Data Science and AI, eager to apply my skills in innovative projects. Passionate about leveraging data and technology to create impactful solutions</h6>
+                        <p>
+                            <a href="Snehal_Tripathi_resume(DA).pdf" class="btn btn-primary py-3 px-4" download>Download CV</a>
+                            <a href="https://github.com/snehal2103/" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<img src="images/about (2).png" class="img-fluid rounded b-shadow-a" alt="">
+									  </div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Snehal Tripathi</span></p>
+										
+										<p><span class="title-s">Email: </span> <span><a href="mailto:info@yoursite.com">snehaltripathi21032003@gmail.com</a></span></p>
+										<p><span class="title-s">Address: </span> <span>Mumbai,Maharashtra, India</span></p>
+									  </div>
+									</div>
+								  </div>
+								  <div class="skill-mf">
+									<p class="title-s">Skills</p>
+									
+									<!-- Dropdown for Programming Languages & Databases -->
+									<div class="dropdown">
+										<button class="dropdown-btn">Programming Languages & Databases</button>
+										<div class="dropdown-content">
+											<ul>
+												<li>Python</li>
+												<li>Java</li>
+												<li>SQL</li>
+												<li>MongoDB</li>
+											</ul>
+										</div>
+									</div>
+								
+									<!-- Dropdown for Web Technologies -->
+									<div class="dropdown">
+										<button class="dropdown-btn">Web Technologies</button>
+										<div class="dropdown-content">
+											<ul>
+												<li>HTML</li>
+												<li>CSS</li>
+												<li>Flask</li>
+												<li>Streamlit</li>
+											</ul>
+										</div>
+									</div>
+								
+									<!-- Dropdown for Data Analysis & Visualization -->
+									<div class="dropdown">
+										<button class="dropdown-btn">Data Analysis & Visualization</button>
+										<div class="dropdown-content">
+											<ul>
+												<li>Power BI</li>
+												<li>Excel</li>
+											</ul>
+										</div>
+									</div>
+								
+									<!-- Dropdown for Tools & Version Control -->
+									<div class="dropdown">
+										<button class="dropdown-btn">Tools & Version Control</button>
+										<div class="dropdown-content">
+											<ul>
+												<li>GIT</li>
+												<li>GitHub</li>
+												<li>DBMS</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								<!-- CSS -->
+								<style>
+									.dropdown {
+										margin-top: 10px;
+									}
+									.dropdown-btn {
+										background-color: #ffbd39;
+										color: white;
+										padding: 10px;
+										border: none;
+										cursor: pointer;
+										font-size: 16px;
+										width: 100%;
+										text-align: left;
+										border-radius: 5px;
+									}
+									.dropdown-content {
+										display: none;
+										background-color: #f9f9f9;
+										border: 1px solid #ddd;
+										padding: 10px;
+										margin-top: 5px;
+										border-radius: 5px;
+									}
+									.dropdown-btn:hover {
+										background-color: #dcac0c;
+									}
+									.dropdown:hover .dropdown-content {
+										display: block;
+									}
+									.dropdown-content ul {
+										list-style-type: none;
+										padding: 0;
+										margin: 0;
+									}
+									.dropdown-content li {
+										padding: 5px 0;
+									}
+								</style>
+								
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								<p>I am a dedicated student pursuing a career in Data Science and AI, passionate about harnessing the power of data to drive meaningful insights. Through hands-on projects and academic coursework, I’ve built strong skills in data analysis, machine learning, and visualization. I am eager to apply my skills in a professional environment and continue learning along the way.</p>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="6">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/snehal-tripathi-18070a308/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+	<section class="ftco-section ftco-no-pb" id="resume-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Resume</h1>
+					<h2 class="mb-4">Resume</h2>
+					<p>Student of Master of Science in Data Science and AI, with a strong academic background in Computer Science. Eager to apply theoretical knowledge in the field of Data Science, Machine Learning, and Artificial Intelligence through hands-on projects and research work.</p>
+				</div>
+			</div>
+	
+			<div class="row">
+				<h1 class="big-4">Education</h1>
+				<div class="underline"></div>
+			</div>
+			<br>
+	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2024 - Present</span>
+						<h2>Master of Science in Data Science and AI</h2>
+						<span class="position">Ramniranjan Jhunjhunwala College of Arts, Science and Commerce</span>
+						<p class="mt-4">Currently pursuing a Master’s degree in Data Science and AI, gaining a deep understanding of advanced data analysis, machine learning, and artificial intelligence techniques.</p>
+					</div>
+				</div>
+	
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2020 - 2024</span>
+						<h2>Bachelor of Science in Computer Science</h2>
+						<span class="position">Ratnam College of Science, Arts, and Commerce</span>
+						<p class="mt-4">Grade: 9.79 CGPA. Completed a comprehensive program in Computer Science, focusing on programming languages, algorithms, and data structures.</p>
+					</div>
+				</div>
+			</div>
+	
+			<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2019</span>
+						<h2>Higher Secondary School (HSC)</h2>
+						<span class="position">Nes Junior College</span>
+						<p class="mt-4">Grade: 91.67%</p>
+					</div>
+				</div>
+	
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2017</span>
+						<h2>Secondary School Certificate (SSC)</h2>
+						<span class="position">Saraswati English High School</span>
+						<p class="mt-4">Grade: 83.20%</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="Snehal_Tripathi_resume(DA).pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+	<section class="ftco-section" id="project-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Projects</h1>
+					<h2 class="mb-4">Projects</h2>
+					<p>Below are some of my Data Analytics, ML, and Web Development projects.</p>
+				</div>
+			</div>
+			
+			<div class="row d-flex">
+				<!-- Student Result Management System -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/snehal2103/result_management_system" class="block-20 zoom-effect" style="background-image: url('images/SRMS.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/snehal2103/result_management_system">Student Result Management System</a></h3>
+							<p>Developed a system using Python, Tkinter, and SQLite for teachers to manage grades and students to view results securely.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Online Service Management System -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/snehal2103/OSMS_Project" class="block-20 zoom-effect" style="background-image: url('images/OSMS.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/snehal2103/OSMS_Project">Online Service Management System</a></h3>
+							<p>Built using HTML, CSS, JavaScript, and SQL to allow users to request, track, and manage services online, with responsive design.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- E-Commerce Sales Dashboard -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/snehal2103/ecommerce_sales_dashboard" class="block-20 zoom-effect" style="background-image: url('images/proj_3.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/snehal2103/ecommerce_sales_dashboard">E-Commerce Sales Dashboard</a></h3>
+							<p>Created an interactive Power BI dashboard to visualize sales trends, revenue, and customer behavior for KPI tracking.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	
+			<div class="row d-flex justify-content-center">
+				<!-- Diabetes Predictor Using Flask -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/snehal2103/diabetes_predict_flaskapp" class="block-20 zoom-effect" style="background-image: url('images/diabetes.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/snehal2103/diabetes_predict_flaskapp">Diabetes Predictor</a></h3>
+							<p>Developed a Flask web app for diabetes risk assessment using ML algorithms for accurate predictions based on health inputs.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Vrinda Store Dashboard (Excel) -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/snehal2103/Vrinda_Store_Dashboard_Excel" class="block-20 zoom-effect" style="background-image: url('images/shop.png');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/snehal2103/Vrinda_Store_Dashboard_Excel">Store Dashboard (Excel)</a></h3>
+							<p>Designed an Excel dashboard to track Vrinda Store sales and visualize key data points to aid in business decisions.</p>
+						</div>
+					</div>
+				</div>
+	
+				<!-- Customer Segmentation Using KMeans -->
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="https://github.com/snehal2103/customer_segmentation_using_clustering" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<h3 class="heading"><a href="https://github.com/snehal2103/customer_segmentation_using_clustering">Customer Segmentation Using Clustering</a></h3>
+							<p>Developed a clustering model to recommend targeted financial products based on customer segments.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+     
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">4
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+			<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/snehal2103" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Mumbai,Maharashtra, India</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://7738430059">7738430059</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">snehaltripathi21032003@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="Snehal_Tripathi_resume(DA).pdf">resumelink</a></p>
+	          </div>
+          </div>
+
+		  <div class="container">
+			<br>
+			<br>
+			<div class="row justify-content-center">
+				
+			</div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/snehal-tripathi-18070a308/"><span class="icon-linkedin"></span></a></li>  
+				      <li class="ftco-animate"><a href="https://www.instagram.com/snehal_trip/"><span class="icon-instagram"></span></a></li>
+					  <li class="ftco-animate"><a href="https://github.com/snehal2103"><span class="icon-github"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="icon-heart color-danger" aria-hidden="true"></i> by Snehal</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
